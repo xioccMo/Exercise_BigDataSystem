@@ -17,7 +17,7 @@
   ```
 
   例如: 序号为9, 19的同学, VPN账号为 dase10; 序号为10, 20的同学, VPN账号为 dase01
-
+ 
 - 访问 10.11.1.208:8080
 
 #### 2. 注册 DIMA Evaluation Tool, 在 register 中填写信息
@@ -32,7 +32,7 @@
 - 代码入口 `git clone https://gitlab.com/dukechain/???.git`
 - 进入代码目录 `cd ???`
 - 进入代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
-
+- 在做题过程中若要切换分支, 使用 `git add . ; git commit -m "v"`
 
 #### 4. 编码环境设置
 - 在 Intellij IDEA 中导入 Maven 工程 (**推荐**)
