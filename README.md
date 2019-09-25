@@ -4,8 +4,8 @@
 
 ![](./logo.jpg)
 
-#### 1. 登录内网VPN
-- VPN账号采用哈希方法分配:
+#### 1. 登录内网 VPN
+- VPN 账号采用哈希方法分配:
 
   ```shell
   i = 序号 % 10 + 1;
@@ -16,19 +16,19 @@
   VPN密码 = VPN用户名;
   ```
 
-  例如: 序号为9, 19的同学, VPN账号为 dase10; 序号为10, 20的同学, VPN账号为 dase01
+  例如: 序号为 9, 19 的同学, VPN 账号为 dase10; 序号为 10, 20 的同学, VPN 账号为 dase01
  
-- 访问 10.11.1.208:8080
+- 访问 http://10.11.1.208:8080
 
 #### 2. 注册 DIMA Evaluation Tool, 在 register 中填写信息
 - First Name/Last Name: 请使用汉语拼音 
 - University: 选 other, 填 ECNU
 - Semester: ???
-- Matriculation Number: 序号, 不足六位请在前面补0 (例如, 序号为8的同学, 此处填写 000008;
-  序号为 18 的同学, 此处填写000018; 依此类推)
+- Matriculation Number: 序号, 不足六位请在前面补 0 (例如, 序号为8的同学, 此处填写 000008;
+  序号为 18 的同学, 此处填写 000018; 依此类推)
 
-#### 3. 作业题
-- 作业题说明入口 DIMA Evaluation Tool -> ??? -> Assignments
+#### 3. 试题
+- 提交入口 DIMA Evaluation Tool -> ??? -> Assignments (密码: ???)
 - 代码入口 `git clone https://gitlab.com/dukechain/???.git`
 - 进入代码目录 `cd ???`
 - 进入代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
