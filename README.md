@@ -5,18 +5,8 @@
 ![](./logo.jpg)
 
 #### 1. 登录内网 VPN
-- VPN 账号采用哈希方法分配:
 
-  ```shell
-  i = 序号 % 10 + 1;
-  if i < 10 
-      VPN用户名 = "dase" + "0" + i;
-  else 
-      VPN用户名 = "dase" + i;
-  VPN密码 = VPN用户名;
-  ```
-
-  例如: 序号为 9, 19 的同学, VPN 账号为 dase10; 序号为 10, 20 的同学, VPN 账号为 dase01
+- 参见大夏学堂实验课程部分
  
 - 访问 http://10.11.1.208:8080
 
@@ -29,14 +19,13 @@
 
 #### 3. 试题
 - 提交入口 DIMA Evaluation Tool -> ??? -> Assignments (密码: ???)
-- 代码入口 `git clone https://gitlab.com/dukechain/???.git`
+- 代码入口 `git clone git@???.git` (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md))
 - 进入代码目录 `cd ???`
-- 进入代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
-- 在做题过程中若要切换分支, 使用 `git add . ; git commit -m "v"`
+- 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
+- 在做题过程中若要切换分支, 使用 `git add . ; git commit -m "v"` 保存当前分支进度
 
 #### 4. 编码环境设置
-- 在 Intellij IDEA 中导入 Maven 工程 (**推荐**)
-- 在 Eclipse 导入 Maven 工程
+- 在 Intellij IDEA 中导入 Maven 工程
 
 #### 5. 编码及调试
 - 根据说明补充相应代码
@@ -45,12 +34,7 @@
 
 #### 6. 调试并提交
 - 根据说明补充相应代码
-- 本地测试通过后通过IDE导出 JAR 包
-  - Intellij IDEA
-    - 选择 File -> Project Structure -> Artifacts -> + JAR -> Empty, 点击 Output Layout 下的加号, 选择 Module Output 和 Module Sources
-    - 选择 Build -> Build Artifacts, 在弹框中选择新建的 artifacts 进行 rebuild, JAR将包生成在 out 目录下或 classes 目录下
-  - Eclipse
-    - 选择 File -> Export -> Java -> JAR file
-    - 勾选 bigdataprogramming_exercise 下的 src/main/java, 勾选下方的 Export generated class files and resources, Export Java source files and resources, Compress the content of the JAR file, Add directory entries
-    - 选择输出路径, 点击 Finish
+- 本地测试通过后通过 Intellij IDEA 导出 JAR 包
+  - 选择 File -> Project Structure -> Artifacts -> + JAR -> Empty, 点击 Output Layout 下的加号, 选择 Module Output 和 Module Sources
+  - 选择 Build -> Build Artifacts, 在弹框中选择新建的 artifacts 进行 rebuild, JAR将包生成在 out 目录下或 classes 目录下
 - 在 DIMA Evaluation Tool 中的 Submit test solution 处提交 JAR 包
