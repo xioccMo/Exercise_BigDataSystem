@@ -31,5 +31,6 @@
     Welcome to GitLab, @username!
     ```
 	
-	注意："???" , 公网为gitlab.com, 内网为xxx
+	注意："???" , 公网为gitlab.com, 内网为10.11.1.209(需确保登录了内网VPN)
+	
     首次连接会询问 `Are you sure you want to continue connecting (yes/no)?`, 输入 `yes` 即可
