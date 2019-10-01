@@ -23,7 +23,7 @@
 #### 3. 试题
 - 提交入口 DIMA Evaluation Tool → ??? → Assignments (密码: ???)
 
-- 代码入口 `git clone git@???.git` (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md))
+- 代码入口: 使用SSH clone `git clone git@???.git` (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用Https clone `git clone https://???.git`
 
 - 进入代码目录 `cd ???`
 

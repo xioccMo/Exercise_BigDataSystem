@@ -1,3 +1,5 @@
+<font color=red>请在生成的学生试题仓库修改 "???" 处, 公网为gitlab.com, 内网为xxx并删除本行</font>
+
 # Gitlab SSH key 设置
 
 ## 1 生成 SSH key
@@ -27,7 +29,7 @@
   * 检验是否设置成功
 
     ```shell
-    >>> ssh -T git@gitlab.com
+    >>> ssh -T git@???
     Welcome to GitLab, @username!
     ```
 
