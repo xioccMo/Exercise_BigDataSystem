@@ -1,5 +1,3 @@
-<font color=red>请在生成的学生试题仓库修改 "???" 处, 并删除本行</font>
-
 # 大师编程 (DaSE Programming) 训练平台
 
 ![](./logo.jpg)
@@ -15,17 +13,17 @@
 
 - University: 选 other, 填 ECNU
 
-- Semester: ???
+- Semester: 5
 
 - Matriculation Number: 序号, 不足六位请在前面补 0 (例如, 序号为8的同学, 此处填写 000008;
   序号为 18 的同学, 此处填写 000018; 依此类推)
 
 #### 3. 试题
-- 提交入口 DIMA Evaluation Tool → ??? → Assignments (密码: ???)
+- 提交入口 DIMA Evaluation Tool → Distributed System Paradigm and Programming (Exercise) → Assignments (密码: dspp2019)
 
 - 代码入口: 使用SSH clone (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用Https clone 命令为`git clone URL`（其中URL见仓库右上角clone）
 
-- 进入代码目录 `cd ???`
+- 进入代码目录 `cd bigdataprogramming_exercise`
 
 - 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
 
