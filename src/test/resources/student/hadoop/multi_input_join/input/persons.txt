@@ -1,0 +1,3 @@
+1	Adams	John	Oxford Street	London
+2	Bush	George	Fifth Avenue	New York
+3	Carter	Thomas	Changan Street	Beijing
