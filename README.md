@@ -27,7 +27,7 @@
 
 - 进入代码目录 `cd bigdataprogramming_exercise`
 
-- 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等) (**更新之前请参考最后一条保存当前分支进度**)
+- 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等) (**切换之前请参考最后一条保存当前分支进度**)
 
 - 在做题过程中若要切换分支, 使用 `git add . ; git commit -m "v"` 保存当前分支进度
 
