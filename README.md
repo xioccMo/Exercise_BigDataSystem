@@ -21,11 +21,13 @@
 #### 3. 试题
 - 提交入口 DIMA Evaluation Tool → Distributed System Paradigm and Programming (Exercise) → Assignments (密码: dspp2019)
 
-- 代码入口: 使用SSH clone (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用Https clone 命令为`git clone URL`（其中URL见仓库右上角clone）
+- 代码入口: 使用SSH clone (如未设置 SSH key, 请先完成 [Gitlab SSH key 设置](./SSH.md)) 或使用Https clone 命令为`git clone URL` (其中URL见仓库右上角clone)
+
+- 更新代码: `git pull origin master` (**更新之前请参考最后一条保存当前分支进度**)
 
 - 进入代码目录 `cd bigdataprogramming_exercise`
 
-- 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等)
+- 切换代码分支 `git checkout XXX`, 其中 `XXX` 代表分支名称 (如 hadoop_k_means 等) (**更新之前请参考最后一条保存当前分支进度**)
 
 - 在做题过程中若要切换分支, 使用 `git add . ; git commit -m "v"` 保存当前分支进度
 
