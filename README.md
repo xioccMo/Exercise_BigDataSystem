@@ -1,3 +1,17 @@
+## 华东师范大学 分布式模型与编程 (DATA0031131002.01.2019-20201) 实践作业
+
+### 这个Repository主要目的是备份题目和我的答案，以供交流与学习
+#### 1、原始的具体介绍在下方
+#### 2、<a href='https://github.com/xioccMo/Exercise_BigDataSystem'>我的答案</a>   jar包里的为类文件（即我的答案）和编译后的类文件，所有答案提交后均满分
+#### 3、关于内网VPN：在Unbuntu下设置网关为58.198.176.152，用户和密码<a href="mailto:xioccmo@outlook.com">点这里</a>，使用点对点加密   
+#### 4、导入maven项目时出现 Missing artifact jdk.tools:jdk.tools:jar:1.6 问题，可参考https://www.cnblogs.com/gyjx2016/p/5925026.html
+
+<br/>
+<br/>
+<br/>
+<br/>
+  
+  
 # 大师编程 (DaSE Programming) 训练平台
 
 ![](./logo.jpg)
